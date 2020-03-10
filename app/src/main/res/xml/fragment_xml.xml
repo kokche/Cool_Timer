@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:title="Sound"
+        android:summaryOn="Sound is Enabled"
+        android:summaryOff="Sound is Disabled"
+        android:defaultValue="true"
+        android:key="enabled_sound"/>
+    <ListPreference
+        android:title="list of sound"
+        android:key="sound_of_bell"
+        android:defaultValue="bell"
+        android:entries="@array/name_of_bell"
+        android:entryValues="@array/value_of_bell"/>
+    <EditTextPreference
+        android:title="Default value in sec"
+        android:key="default_value"
+        android:defaultValue="300"/>
+</PreferenceScreen>

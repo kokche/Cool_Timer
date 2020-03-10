@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="name_of_bell">
+        <item>Bell</item>
+        <item>Alarm</item>
+    </array>
+
+    <array name="value_of_bell">
+        <item>bell</item>
+        <item>alarm</item>
+    </array>
+</resources>
